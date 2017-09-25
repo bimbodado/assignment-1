@@ -67,7 +67,7 @@ public class PointCPTest2
 
     System.out.println("\nStored as Polar:\n" + point);
     if (convert)
-    	System.out.println("\nAfter asking to convert to Cartesian\n" +"(" + point.getX()+","+point.getY()+")");
+    	System.out.println("\nAfter asking to convert to Cartesian\n" +"(" + point.getX()+", "+point.getY()+")");
   }
 
   /**
