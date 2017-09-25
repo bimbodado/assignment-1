@@ -66,8 +66,8 @@ public class PointCPTest3
     }
 
     System.out.println("\nStored as Cartesian:\n" + point);
-
-    System.out.println("\nAfter asking to convert to Polar\n" +"(" + point.getRho()+","+point.getTheta()+")");
+    if (convert)
+    	System.out.println("\nAfter asking to convert to Polar\n" +"(" + point.getRho()+","+point.getTheta()+")");
   }
 
   /**
